@@ -48,9 +48,9 @@ Aplikasi Mu-Film adalah aplikasi yang memudahkan kita dalam mencari informasi fi
 > Semoga bermanfaat....
 ---
 
-### Ikuti saya dengan cara ;
-**Follow akun github saya :**
+### Ikuti saya dengan cara 
+**Follow akun github :**
 https://github.com/fajaregafirmansyah
 
-**Follow akun instagram saya :**
+**Follow akun instagram :**
 https://www.instagram.com/fajaregaf/
