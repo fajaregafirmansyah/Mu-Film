@@ -23,7 +23,7 @@ Aplikasi Mu-Film adalah aplikasi yang memudahkan kita dalam mencari informasi fi
 | ![Gambar aplikasi](https://github.com/fajaregafirmansyah/Mu-Film/blob/master/Screenshot/4.jpg)   | ![Gambar aplikasi](https://github.com/fajaregafirmansyah/Mu-Film/blob/master/Screenshot/5.jpg)  | ![Gambar aplikasi](https://github.com/fajaregafirmansyah/Mu-Film/blob/master/Screenshot/6.jpg) |
 
 ---
-### Cara menggunakannya
+** Cara menggunakannya :**
 1. Clone project atau Download. Setelah itu import project di Android Studio
 2. Masuk dan mendaftar akun untuk mendapatkan API_KEY di https://www.themoviedb.org lalu paste di
 
