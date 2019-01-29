@@ -32,7 +32,7 @@ Aplikasi Mu-Film adalah aplikasi yang memudahkan kita dalam mencari informasi fi
 | build.gradle(Module:app)   | ![Gambar aplikasi](https://github.com/fajaregafirmansyah/Mu-Film/blob/master/Screenshot/apikey.JPG)  | 
 
 3. Cara mendaftar dan mendapatkan API_KEY ikuti tutorial di https://blog.dicoding.com/registrasi-testing-themoviedb-api/
-4. Setelah itu Run dan selesai silahkan pelajari codenya
+4. Setelah itu Run aplikasinya di emulator atau di Hp dan selesai silahkan pelajari codenya
 
 ---
 **Library yang digunakan :**
