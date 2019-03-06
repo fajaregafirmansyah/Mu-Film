@@ -29,7 +29,7 @@ import retrofit2.Response;
 
 public class FilmActivity extends AppCompatActivity {
     private ActivityFilmBinding binding;
-    private String TAG = FilmActivity.class.getSimpleName();
+    private final String TAG = FilmActivity.class.getSimpleName();
 
     private ProgressBar loading;
     private EditText inputCari;
@@ -65,7 +65,7 @@ public class FilmActivity extends AppCompatActivity {
     }
 
     //ketika pertama kali dibuka nampilin daftar film yang mendatang
-    public void ambilFilmPertamakali() {
+    private void ambilFilmPertamakali() {
         loading.setVisibility(View.VISIBLE);
         final RecyclerView rv = binding.recyclerFilm;
         rv.setLayoutManager(new LinearLayoutManager(FilmActivity.this));
@@ -95,7 +95,7 @@ public class FilmActivity extends AppCompatActivity {
     }
 
     //fungsi hasil search berdasarkan input dari doi(user)
-    public void ambilFilm() {
+    private void ambilFilm() {
         String input_film = inputCari.getText().toString();
 
         loading.setVisibility(View.VISIBLE);

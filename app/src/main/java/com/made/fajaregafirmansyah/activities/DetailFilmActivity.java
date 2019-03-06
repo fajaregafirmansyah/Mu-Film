@@ -11,9 +11,10 @@ import com.made.fajaregafirmansyah.R;
 
 public class DetailFilmActivity extends AppCompatActivity {
 
-    ImageView gambar;
-    TextView tvJudul, tvDeskripsi;
-    String url_image = "https://image.tmdb.org/t/p/w500/";
+    private ImageView gambar;
+    private TextView tvJudul;
+    private TextView tvDeskripsi;
+    private final String url_image = "https://image.tmdb.org/t/p/w500/";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

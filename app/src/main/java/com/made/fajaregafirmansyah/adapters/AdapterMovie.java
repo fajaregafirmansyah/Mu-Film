@@ -21,12 +21,12 @@ import java.util.List;
 public class AdapterMovie extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     //buat beberapa objek yang penting
-    private List<ItemsMovie.ResultsHasil> itemsMovieList;
+    private final List<ItemsMovie.ResultsHasil> itemsMovieList;
     private static final String TAG = AdapterMovie.class.getSimpleName();
     private rvItemClickListener rvItemClickListener;
-    private int tataletakbaris;
-    private Context context;
-    private String URL_IMAGE = "https://image.tmdb.org/t/p/w500";
+    private final int tataletakbaris;
+    private final Context context;
+    private final String URL_IMAGE = "https://image.tmdb.org/t/p/w500";
 //    private String URL_IMAGE = "https://image.tmdb.org/t/p/w185/kSBXou5Ac7vEqKd97wotJumyJvU.jpg";
 
     //kontruktor tips dari fajar setelah membuat kelas adapter pencet alt+insert lalu pilih konstruktor maka akan generate langsung
@@ -99,11 +99,12 @@ public class AdapterMovie extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
 
     //proses ta'aruf dulu untuk membangun kecocokan setelah itu baru deh nikah
     class AdapterMovieHolder extends RecyclerView.ViewHolder {
-        LinearLayout linearLayout;
-        ImageView imageView;
-        TextView tvTitle, tvDesc;
+        final LinearLayout linearLayout;
+        final ImageView imageView;
+        final TextView tvTitle;
+        final TextView tvDesc;
 
-        public AdapterMovieHolder(View itemView) {
+        AdapterMovieHolder(View itemView) {
             super(itemView);
 
             linearLayout = itemView.findViewById(R.id.linearItemMovie);

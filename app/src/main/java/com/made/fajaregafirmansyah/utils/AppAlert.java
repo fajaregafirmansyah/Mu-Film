@@ -7,7 +7,7 @@ import com.tapadoo.alerter.Alerter;
 
 public class AppAlert {
 
-    private Activity activity;
+    private final Activity activity;
 
     public AppAlert(Activity activity) {
         this.activity = activity;
