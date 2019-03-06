@@ -13,13 +13,13 @@ android {
     buildTypes {
         debug {
             //apikey yang digunakan saat debug app untuk kegiatan developer
-            buildConfigField "String", "API_KEY", "\"paste API_KEY disini\"";
+            buildConfigField "String", "API_KEY", "\"d572e35059250e5af0dea4bfe9b325c1\"";
         }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             //apikey yang digunakan saat sudah release app untuk final
-            buildConfigField "String", "API_KEY", "\"paste API_KEY disini\"";
+            buildConfigField "String", "API_KEY", "\"d572e35059250e5af0dea4bfe9b325c1\"";
         }
     }
     dataBinding {
