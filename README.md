@@ -1,4 +1,4 @@
-# Mu-Film
+# Mu-Film (Submission 1)
 Aplikasi Mu-Film adalah aplikasi yang memudahkan kita dalam mencari informasi film-film terbaru dan terupdate.
 
 ---
